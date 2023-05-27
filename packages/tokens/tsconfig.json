@@ -1,0 +1,4 @@
+{
+  "extends": "@ton/ts-config/base.json",
+  "include": ["src"]
+}

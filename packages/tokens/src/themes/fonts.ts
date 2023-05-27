@@ -1,0 +1,28 @@
+export const fontFamily = {
+  default: [
+    'Inter',
+    'Roboto',
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Open Sans',
+    'Helvetica Neue',
+    'sans-serif',
+  ],
+  heading: [
+    'ton Condensed',
+    'Roboto',
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Open Sans',
+    'Helvetica Neue',
+    'sans-serif',
+  ],
+}

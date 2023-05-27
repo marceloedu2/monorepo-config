@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@ton/eslint-config",
+    "plugin:storybook/recommended",
+    "plugin:storybook/recommended"
+  ]
+}
