@@ -14,19 +14,19 @@ const config = {
       },
     },
   ],
-  framework: '@storybook/react',
-  core: {
-    builder: '@storybook/builder-vite',
-  },
-  features: {
-    storyStoreV7: true,
-  },
-  // framework: {
-  //   name: '@storybook/react-vite',
-  //   options: {},
+  // framework: '@storybook/react',
+  // core: {
+  //   builder: '@storybook/builder-vite',
   // },
-  // docs: {
-  //   autodocs: 'tag',
+  // features: {
+  //   storyStoreV7: true,
   // },
+  framework: {
+    name: '@storybook/react-vite',
+    options: {},
+  },
+  docs: {
+    autodocs: 'tag',
+  },
 }
 export default config
