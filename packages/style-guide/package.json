@@ -1,5 +1,5 @@
 {
-  "name": "@ton/tokens",
+  "name": "@ton/style-guide",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -7,8 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "lint": "eslint src/**/*.ts* --fix"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
   "author": "",

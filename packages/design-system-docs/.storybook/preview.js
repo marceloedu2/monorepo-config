@@ -1,6 +1,7 @@
 import { themes } from '@storybook/theming'
-
-import '@ton/components/src/styles.css'
+import './fonts/tonCondensed.css'
+import './fonts/inter.css'
+import '@ton/design-system/src/styles.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

@@ -7,7 +7,7 @@ import {
   borderRadius,
   fontSizes as fontSize,
   lineHeights as lineHeight,
-} from '@ton/tokens'
+} from '@ton/style-guide'
 module.exports = {
   content: ['./src/**/*.{ts,tsx}'],
   theme: {

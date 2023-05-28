@@ -1,29 +1,23 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/pages/*.mdx', '../src/stories/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     {
-      name: '@storybook/addon-postcss',
+      name: '@storybook/addon-styling',
       options: {
-        postcssLoaderOptions: {
-          implementation: require('postcss'),
-        },
+        postCss: true,
       },
     },
   ],
-  // framework: '@storybook/react',
-  // core: {
-  //   builder: '@storybook/builder-vite',
-  // },
-  // features: {
-  //   storyStoreV7: true,
-  // },
   framework: {
     name: '@storybook/react-vite',
     options: {},
+  },
+  core: {
+    builder: '@storybook/builder-vite',
   },
   docs: {
     autodocs: 'tag',

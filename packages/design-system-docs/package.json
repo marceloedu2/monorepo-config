@@ -1,12 +1,12 @@
 {
-  "name": "@ton/docs",
+  "name": "@ton/design-system-docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
@@ -15,24 +15,26 @@
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
-    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-styling": "^1.0.8",
     "@storybook/blocks": "^7.0.18",
     "@storybook/react": "^7.0.18",
     "@storybook/react-vite": "^7.0.18",
-    "@storybook/testing-library": "^0.0.14-next.2",
-    "@ton/components": "*",
+    "@storybook/testing-library": "^0.1.0",
+    "@ton/design-system": "*",
     "@ton/eslint-config": "*",
-    "@ton/tokens": "*",
+    "@ton/style-guide": "*",
     "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^9.8.8",
     "eslint-plugin-storybook": "^0.6.12",
-    "postcss": "^8.4.23",
+    "postcss": "^7.0.39",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.18",
-    "tailwindcss": "^3.3.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@radix-ui/react-accessible-icon": "^1.0.3",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

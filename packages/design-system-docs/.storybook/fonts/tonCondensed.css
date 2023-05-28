@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Thin.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Thin.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Extralight.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Extralight.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Thin.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Thin.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Light.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Light.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Regular.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Regular.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Medium.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Medium.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Medium.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363375/fonts/site-ton/TonCondensed/TonCondensed-Medium.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Semibold.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363376/fonts/site-ton/TonCondensed/TonCondensed-Semibold.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Bold.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Bold.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Extrabold.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Extrabold.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ton Condensed';
+  src: url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Black.woff2)
+      format('woff2'),
+    url(https://res.cloudinary.com/dunz5zfpt/raw/upload/v1673363374/fonts/site-ton/TonCondensed/TonCondensed-Black.woff)
+      format('woff');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}

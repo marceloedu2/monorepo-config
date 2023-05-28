@@ -4,20 +4,11 @@
 
 @layer components {
   .btn {
-    cursor: pointer;
-    outline: none;
-    align-items: center;
-    align-items: center;
-    display: inline-flex;
-    text-decoration: none;
-    justify-content: center;
-    border-radius: 3.2rem;
+    @apply font-bold cursor-pointer outline-none items-center inline-flex justify-center rounded-xlg;
 
     &:focus {
-      outline: 0;
+      outline: 0px;
     }
-
-    @apply font-bold;
   }
 
   .btn-stone-primary {
@@ -48,19 +39,19 @@
   }
 
   .btn-primary {
-    @apply text-display-900 bg-newTon-400;
+    @apply text-display-900 bg-ton-400;
 
     &:hover {
-      @apply bg-newTon-600;
+      @apply bg-ton-600;
       box-shadow: 0px 0px 4px 2px #8cf9a4;
     }
 
     &:focus {
-      @apply bg-newTon-600 border-newTon-700;
+      @apply bg-ton-600 border-ton-700;
     }
 
     &:active {
-      @apply bg-newTon-700 shadow-none;
+      @apply bg-ton-700 shadow-none;
     }
 
     &:disabled {
@@ -69,19 +60,19 @@
   }
 
   .btn-secondary {
-    @apply text-newTon-700 bg-display-0 border border-newTon-700;
+    @apply text-ton-700 bg-display-0 border border-ton-700;
 
     &:hover {
       box-shadow: 0px 0px 4px 2px #8cf9a4;
     }
 
     &:focus {
-      @apply bg-newTon-100;
+      @apply bg-ton-100;
       box-shadow: 0px 0px 8px 2px #8cf9a4;
     }
 
     &:active {
-      @apply text-display-0 bg-newTon-100 border-transparent shadow-none;
+      @apply text-display-0 bg-ton-100 border-transparent shadow-none;
     }
 
     &:disabled {
@@ -115,23 +106,19 @@
   }
 
   .btn-xsmall {
-    height: 3.2rem;
-    @apply paragraph-14 px-24;
+    @apply h-8 paragraph-14 px-6;
   }
 
   .btn-small {
-    height: 4rem;
-    @apply paragraph-16 px-24;
+    @apply h-10 paragraph-16 px-6;
   }
 
   .btn-regular {
-    height: 4.8rem;
-    @apply paragraph-16 px-16;
+    @apply h-12 paragraph-16 px-6;
   }
 
   .btn-large {
-    height: 5.6rem;
-    @apply paragraph-16 px-24;
+    @apply h-14 paragraph-16 px-6;
   }
 
   .paragraph-12 {
@@ -143,7 +130,7 @@
   }
 
   .paragraph-16 {
-    @apply text-base leading-4;
+    @apply text-md leading-4;
   }
 
   .paragraph-18 {
@@ -167,7 +154,7 @@
   .paragraph-32 {
     @apply text-4xl leading-8;
   }
-
+  /* 
   .heading-1 {
     @apply text-5xl;
     line-height: 4.4rem;
@@ -198,5 +185,5 @@
 
   .heading-6 {
     @apply text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px];
-  }
+  } */
 }

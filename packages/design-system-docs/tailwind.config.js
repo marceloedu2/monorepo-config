@@ -7,10 +7,10 @@ import {
   borderRadius,
   fontSizes as fontSize,
   lineHeights as lineHeight,
-} from '@ton/tokens'
+} from '@ton/style-guide'
 
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/stories/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors,

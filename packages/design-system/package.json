@@ -1,5 +1,5 @@
 {
-  "name": "@ton/components",
+  "name": "@ton/design-system",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@ton/eslint-config": "*",
-    "@ton/tokens": "*",
+    "@ton/style-guide": "*",
     "@ton/ts-config": "*",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
