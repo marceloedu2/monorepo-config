@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "chromatic": "npm run build && npx chromatic --project-token=chpt_9aec1dcf1754c23 --build-script-name build  --exit-zero-on-changes"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^9.8.8",
+    "chromatic": "^6.17.4",
     "eslint-plugin-storybook": "^0.6.12",
     "postcss": "^7.0.39",
     "prop-types": "^15.8.1",

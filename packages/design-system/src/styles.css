@@ -34,7 +34,8 @@
     }
 
     &:disabled {
-      @apply text-display-0 bg-display-200 border border-solid border-display-200 shadow-none;
+      @apply text-display-900 bg-display-200 border border-solid border-display-200 shadow-none;
+      cursor: no-drop;
     }
   }
 
@@ -56,6 +57,7 @@
 
     &:disabled {
       @apply text-display-900 bg-display-200 border border-transparent shadow-none;
+      cursor: no-drop;
     }
   }
 
@@ -77,6 +79,7 @@
 
     &:disabled {
       @apply text-display-900 bg-display-200 border border-transparent shadow-none;
+      cursor: no-drop;
     }
   }
 
@@ -101,7 +104,8 @@
     }
 
     &:disabled {
-      @apply text-display-0 bg-display-200 border border-display-200 shadow-none;
+      @apply text-display-900 bg-display-200 border border-display-200 shadow-none;
+      cursor: no-drop;
     }
   }
 

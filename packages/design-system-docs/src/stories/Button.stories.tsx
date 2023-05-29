@@ -4,14 +4,35 @@ import { Button, ButtonProps } from '@ton/design-system'
 export default {
   title: 'Forms/Button',
   component: Button,
+  argTypes: {
+    color: {
+      options: ['primary', 'primary-reverse', 'secondary', 'stone-primary'],
+      control: { type: 'select' },
+    },
+    size: {
+      options: ['small', 'regular', 'large'],
+      control: { type: 'select' },
+    },
+  },
   args: {
-    children: 'Escolha sua maquininha',
+    children: "don't click me",
     color: 'primary',
     size: 'regular',
+    disabled: false,
   },
 } as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonProps> = {}
+export const Primary: StoryObj<ButtonProps> = {
+  args: {
+    color: 'primary',
+  },
+}
+
+export const PrimaryReverse: StoryObj<ButtonProps> = {
+  args: {
+    color: 'primary-reverse',
+  },
+}
 
 export const Secondary: StoryObj<ButtonProps> = {
   args: {

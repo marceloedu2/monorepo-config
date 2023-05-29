@@ -25,5 +25,8 @@ const config = {
   features: {
     storyStoreV7: true,
   },
+  docs: {
+    autodocs: true,
+  },
 }
 export default config

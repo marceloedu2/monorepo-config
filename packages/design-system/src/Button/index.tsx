@@ -1,9 +1,10 @@
 import { ButtonHTMLAttributes } from 'react'
 import { Slot } from '@radix-ui/react-slot'
 import classNames from 'classnames'
+
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   asChild?: boolean
-  color?: 'primary' | 'secondary' | 'stone-primary'
+  color?: 'primary' | 'secondary' | 'stone-primary' | 'primary-reverse'
   size?: 'small' | 'regular' | 'large'
 }
 
@@ -19,6 +20,7 @@ export function Button({
       className={classNames('font-default btn', {
         'btn-primary': color === 'primary',
         'btn-secondary': color === 'secondary',
+        'btn-primary-reverse': color === 'primary-reverse',
         'btn-stone-primary': color === 'stone-primary',
         'btn-small': size === 'small',
         'btn-regular': size === 'regular',
