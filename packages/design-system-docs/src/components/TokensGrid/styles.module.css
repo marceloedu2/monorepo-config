@@ -1,0 +1,48 @@
+.tokensGrid,
+.tokensGrid tr,
+.tokensGrid tr td,
+.tokensGrid tr th,
+.tokensGrid tbody,
+.tokensGrid thead,
+.tokensGrid tfoot,
+.tokensGrid tr th,
+.tokensGrid tfoot tr tf {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-image: none;
+}
+
+.tokensGrid {
+  width: 100%;
+  font-family: sans-serif;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+.tokensGrid thead th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.tokensGrid tbody td {
+  padding: 0.75rem 1rem;
+  color: #ccc;
+}
+
+.tokensGrid tbody td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tokensGrid tbody td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.tokensGrid tbody tr:nth-child(even) td {
+  background: #444;
+}

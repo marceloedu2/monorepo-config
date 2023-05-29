@@ -1,6 +1,9 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ['../src/pages/*.mdx', '../src/stories/*.stories.@(js|jsx|ts|tsx)'],
+  stories: [
+    '../src/pages/**/*.stories.mdx',
+    '../src/stories/**/*.stories.@(js|jsx|ts|tsx)',
+  ],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
@@ -19,8 +22,8 @@ const config = {
   core: {
     builder: '@storybook/builder-vite',
   },
-  docs: {
-    autodocs: 'tag',
+  features: {
+    storyStoreV7: true,
   },
 }
 export default config

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@ton/design-system'
 
 export default {
-  title: 'Form/Button',
+  title: 'Forms/Button',
   component: Button,
   args: {
     children: 'Escolha sua maquininha',

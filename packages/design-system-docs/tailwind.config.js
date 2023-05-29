@@ -10,7 +10,11 @@ import {
 } from '@ton/style-guide'
 
 module.exports = {
-  content: ['./src/stories/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/stories/*.{js,jsx,ts,tsx}',
+    './src/components/**/*.{js,jsx,ts,tsx}',
+    './src/pages/**/*.{js,jsx,ts,tsx,mdx}',
+  ],
   theme: {
     extend: {
       colors,
